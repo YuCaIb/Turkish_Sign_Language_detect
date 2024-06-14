@@ -60,17 +60,12 @@ def create_folders(holders: np.array, videos: int, base_dir=main_folder):
         print(f"Created folder '{holder_path}' with sub folders '0' to '29'.")
 
 
-def save_as_nparray(array: np.array, path):
+def get_positions(results):
     """
-    :param array: np.array, array to be saved as 'npy' file
-    :param path:
+    gets landmarks positions and saves in concatenated np array
+    :param results:
     :return:
     """
-    save = get_positions(results=array)
-    np.save(path, save)
-
-
-def get_positions(results):
     pose = np.array([[res.x, res.y, res.z, res.visibility] for res in
                      results.pose_landmarks.landmark]).flatten() if results.pose_landmarks else np.zeros(33 * 4)
     face = np.array([[res.x, res.y, res.z] for res in
@@ -81,3 +76,13 @@ def get_positions(results):
                    results.right_hand_landmarks.landmark]).flatten() if results.right_hand_landmarks else np.zeros(
         21 * 3)
     return np.concatenate([pose, face, lh, rh])
+
+
+def save_as_nparray(array: np.array, path):
+    """
+    :param array: np.array, array to be saved as 'npy' file
+    :param path:
+    :return:
+    """
+    save = get_positions(results=array)
+    np.save(path, save)
