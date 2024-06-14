@@ -34,6 +34,10 @@ def resize_and_display(frame, window_name):
 
 
 def main():
+    """
+    a test function.
+    :return:
+    """
     cap = cv2.VideoCapture(0)
 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)

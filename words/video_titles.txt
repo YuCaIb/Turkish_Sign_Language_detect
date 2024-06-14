@@ -1,0 +1,299 @@
+İşaret Dili Eğitimi -- Fenerbahçe
+işaret dili eğitimi -- yiyecekler
+Sıfır -- İşaret Dili Eğitimi
+Değil -- İşaret Dİli Eğitimi
+Dökmek -- İşaret Dİli Eğitimi
+Demek -- İşaret Dİli Eğitimi
+Çok -- İşaret Dİli Eğitimi
+Çöp -- İşaret Dİli Eğitimi
+Değiştirmek -- İşaret Dİli Eğitimi
+Dokunmak -- İşaret Dİli Eğitimi
+Dolaşmak -- İşaret Dİli Eğitimi
+Destek -- İşaret Dİli Eğitimi
+Dönem -- İşaret Dİli Eğitimi
+Delik -- İşaret Dİli Eğitimi
+Deli -- İşaret Dİli Eğitimi
+Dolu -- İşaret Dİli Eğitimi
+Davranış -- İşaret Dİli Eğitimi
+Defa -- İşaret Dİli Eğitimi
+Dinlenmek -- İşaret Dİli Eğitimi
+Doğru -- İşaret Dİli Eğitimi
+Değerli -- İşaret Dİli Eğitimi
+Diploma -- İşaret Dİli Eğitimi
+Dinlemek -- İşaret Dİli Eğitimi
+Devam -- İşaret Dİli Eğitimi
+Denemek -- İşaret Dİli Eğitimi
+Doğal -- İşaret Dİli Eğitimi
+Dikkat -- İşaret Dİli Eğitimi
+Dar -- İşaret Dİli Eğitimi
+Çıkmak -- İşaret Dİli Eğitimi
+Çile -- İşaret Dİli Eğitimi
+Çok Yaşa -- İşaret Dİli Eğitimi
+Çirkin -- İşaret Dİli Eğitimi
+Çiğnemek -- İşaret Dİli Eğitimi
+Çift -- İşaret Dili Eğitimi
+Çiçek -- İşaret Dili Eğitimi
+Çevirmek -- İşaret Dili Eğitimi
+Çete -- İşaret Dili Eğitimi
+Çarpışmak -- İşaret Dili Eğitimi
+Çete 2 -- İşaret Dili Eğitimi
+Bütün -- İşaret Dili Eğitimi
+Ceza -- İşaret Dili Eğitimi
+Beraber -- İşaret Dili Eğitimi
+Çekmek -- İşaret Dili Eğitimi
+Çağırmak -- İşaret Dili Eğitimi
+Çalışmak -- İşaret Dili Eğitimi
+Çalmak -- İşaret Dili Eğitimi
+Bencil -- İşaret Dili Eğitimi
+Bozmak -- İşaret Dili Eğitimi
+Cevap -- İşaret Dili Eğitimi
+Bırakmak -- İşaret Dili Eğitimi
+Cimri -- İşaret Dili Eğitimi
+Birçok -- İşaret Dili Eğitimi
+Biraz -- İşaret Dili Eğitimi
+Çare -- İşaret Dili Eğitimi
+Boş -- İşaret Dili Eğitimi
+Bilgi Vermek -- İşaret Dili Eğitimi
+Casus -- İşaret Dili Eğitimi
+Cümle -- İşaret Dili Eğitimi
+Boşver -- İşaret Dili Eğitimi
+Çeşit -- İşaret Dili Eğitimi
+Canlı -- İşaret Dili Eğitimi
+Binmek -- İşaret Dili Eğitimi
+Cam -- İşaret Dili Eğitimi
+Boş 2 -- İşaret Dili Eğitimi
+Cesaret -- İşaret Dili Eğitimi
+Can -- İşaret Dili Eğitimi
+Bilmek -- İşaret Dili Eğitimi
+Bir daha -- İşaret Dili Eğitimi
+Cansız -- İşaret Dili Eğitimi
+Benzemek -- İşaret Dili Eğitimi
+Büyük -- İşaret Dili Eğitimi
+Cömert -- İşaret Dili Eğitimi
+Bilgi -- İşaret Dili Eğitimi
+Bulmak -- İşaret Dili Eğitimi
+Bir şey -- İşaret Dili Eğitimi
+Ciddi -- İşaret Dili Eğitimi
+Canı çekmek -- İşaret Dili Eğitimi
+Benzer -- İşaret Dili Eğitimi
+Bilmemek -- İşaret Dili Eğitimi
+Bıkmak -- İşaret Dili Eğitimi
+Buluşmak -- İşaret Dili Eğitimi
+Bitmek -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- bana
+İşaret Dİli Eğitimi  -- onlar
+İşaret Dİli Eğitimi  -- siz2 -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- Biz Siz O Tümü -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- sen -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- onlar2
+İşaret Dİli Eğitimi  -- benim
+İşaret Dİli Eğitimi  -- ben
+İşaret Dİli Eğitimi  -- onun2 -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- onların -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- şu -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- biz
+İşaret Dİli Eğitimi  -- senin -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- bizim
+İşaret Dİli Eğitimi  -- sana -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- siz -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- senin2 -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- onun -- İşaret Dili Eğitimi
+İşaret Dİli Eğitimi  -- o
+İşaret Dili Eğitimi -- İller
+İşaret Dili Eğitimi -- Sayılar 14(ondört)
+20
+40
+2000
+33
+70
+İşaret Dili Eğitimi -- Sayılar 10(on)
+80
+İşaret Dili Eğitimi -- Sayılar 12(oniki)
+İşaret Dili Eğitimi -- Sayılar 11(onbir)
+İşaret Dili Eğitimi -- Sayılar 12.3(oniki)
+700
+İşaret Dili Eğitimi -- Sayılar 4(dört)
+İşaret Dili Eğitimi -- Sayılar 6(alti)
+18
+600
+50
+20 2
+İşaret Dili Eğitimi -- Sayılar 14.2(ondört)
+İşaret Dili Eğitimi -- Sayılar 13.2(onüç)
+77
+88
+22 1
+3000
+20 5
+66
+İşaret Dili Eğitimi -- Sayılar 9(dokuz)
+30
+7000
+İşaret Dili Eğitimi -- Sayılar 15(onbeş)
+100
+İşaret Dili Eğitimi -- Sayılar 12.2(oniki)
+800
+İşaret Dili Eğitimi -- Sayılar 10 000(on bin)
+99
+İşaret Dili Eğitimi -- Sayılar 7(yedi)
+200
+24
+44
+19
+6000
+60
+55
+400
+5000
+İşaret Dili Eğitimi -- Sayılar 13(onüç)
+300
+İşaret Dili Eğitimi -- Sayılar 8(sekiz)
+500
+4000
+22
+30 2
+23
+İşaret Dili Eğitimi -- Sayılar 17(onyedi)
+900
+İşaret Dili Eğitimi -- Sayılar 10.1(on)
+1000
+İşaret Dili Eğitimi -- Sayılar 11.2(onbir)
+40 2
+21
+25
+20 4
+İşaret Dili Eğitimi -- Sayılar 16(onaltı)
+90
+9000
+8000
+İşaret Dili Eğitimi -- Sayılar 5
+İşaret Dili Eğitimi -- Sayılar 3
+İşaret Dili Eğitimi -- İçecekler Tümü
+İşaret Dili Eğitimi -- Şarap
+İşaret Dili Eğitimi -- Votka
+İşaret Dili Eğitimi -- Şampanya
+İşaret Dili Eğitimi -- Şalgam
+İşaret Dili Eğitimi -- Süt
+İşaret Dili Eğitimi -- Su
+İşaret Dili Eğitimi -- Soğuk Çay
+İşaret Dili Eğitimi -- Sıkma Portakal Suyu
+İşaret Dili Eğitimi -- Soda
+İşaret Dili Eğitimi -- Sahlep
+İşaret Dili Eğitimi -- Sıcak Çikolata
+İşaret Dili Eğitimi -- Rakı
+İşaret Dili Eğitimi -- Oralet
+İşaret Dili Eğitimi -- Limonata
+İşaret Dili Eğitimi -- Kahve
+İşaret Dili Eğitimi -- Meyve Suyu
+İşaret Dili Eğitimi -- Nescafe
+İşaret Dili Eğitimi -- Kola
+İşaret Dili Eğitimi -- Çorba
+İşaret Dili Eğitimi -- Ayran
+İşaret Dili Eğitimi -- İçki
+İşaret Dili Eğitimi -- Çay
+İşaret Dili Eğitimi -- Gazoz
+İşaret Dili Eğitimi -- Bira
+İşaret Dili Eğitimi -- Nisan
+İşaret Dili Eğitimi -- Eylül
+İşaret Dili Eğitimi -- Eylül 2
+İşaret Dili Eğitimi -- Şubat
+İşaret Dili Eğitimi -- Haziran 2
+İşaret Dili Eğitimi -- Ekim 2
+İşaret Dili Eğitimi -- Mayıs
+İşaret Dili Eğitimi -- Kasım
+İşaret Dili Eğitimi -- Şubat 2
+İşaret Dili Eğitimi -- Temmuz
+İşaret Dili Eğitimi -- Haziran
+İşaret Dili Eğitimi -- Ocak
+İşaret Dili Eğitimi -- Kasım 2
+İşaret Dili Eğitimi -- Mart
+İşaret Dili Eğitimi -- Mart 2
+İşaret Dili Eğitimi -- Ağustos
+İşaret Dili Eğitimi -- Ekim
+İşaret Dili Eğitimi -- Aile
+İşaret Dili Eğitimi -- Torun
+İşaret Dili Eğitimi -- Komşu
+İşaret Dili Eğitimi -- Düğün 2
+İşaret Dili Eğitimi -- Kardeş
+İşaret Dili Eğitimi -- Yiğen
+İşaret Dili Eğitimi -- Teyze
+İşaret Dili Eğitimi -- Enişte
+İşaret Dili Eğitimi -- Evlenmek
+İşaret Dili Eğitimi -- Dede
+İşaret Dili Eğitimi -- Kuzen 2
+İşaret Dili Eğitimi -- Nişan
+İşaret Dili Eğitimi -- Nine
+İşaret Dili Eğitimi -- Hala
+İşaret Dili Eğitimi -- Kadın
+İşaret Dili Eğitimi -- Damat
+İşaret Dili Eğitimi -- Dost
+İşaret Dili Eğitimi -- Yaşlı
+İşaret Dili Eğitimi -- Oğul
+İşaret Dili Eğitimi -- İhtiyar
+İşaret Dili Eğitimi -- Kız
+İşaret Dili Eğitimi -- Gelin
+İşaret Dili Eğitimi -- Üvey
+İşaret Dili Eğitimi -- Eş
+İşaret Dili Eğitimi -- Erkek
+İşaret Dili Eğitimi -- Kayınvalidee
+İşaret Dili Eğitimi -- Sevgili
+İşaret Dili Eğitimi -- Kuzen
+İşaret Dili Eğitimi -- Koca
+İşaret Dili Eğitimi -- Misafir
+İşaret Dili Eğitimi -- Genç
+İşaret Dili Eğitimi -- Ziyaret
+İşaret Dili Eğitimi -- Düğün
+İşaret Dili Eğitimi -- Dayı
+İşaret Dili Eğitimi -- Anneanne
+İşaret Dili Eğitimi -- Bacanak
+İşaret Dili Eğitimi -- Arkadaş
+İşaret Dili Eğitimi -- Bebek
+İşaret Dili Eğitimi -- Babaanne
+İşaret Dili Eğitimi -- Bayan
+İşaret Dili Eğitimi -- Çocuk
+İşaret Dili Eğitimi -- Bekar
+İşaret Dili Eğitimi -- Bebek 2
+İşaret Dili Eğitimi -- Baba
+İşaret Dili Eğitimi -- Bay
+İşaret Dili Eğitimi -- Boşanmak
+İşaret Dili Eğitimi -- Alfabe Tümü
+İşaret Dili Eğitimi -- Akraba
+İşaret Dili Eğitimi -- Ahbap
+İşaret Dili Eğitimi -- Anne
+İşaret Dili Eğitimi -- Abla
+İşaret Dili Eğitimi -- Amca
+İşaret Dili Eğitimi -- Abla 2
+İşaret Dili Eğitimi -- Abi
+İşaret Dili Eğitimi -- Adam
+İşaret Dili Eğitimi -- Alfabe
+İşaret Dili Eğitimi -- G Harfi 2
+İşaret Dili Eğitimi -- Ğ Harfi
+İşaret Dili Eğitimi -- P Harfi
+İşaret Dili Eğitimi -- R Harfi
+İşaret Dili Eğitimi -- Ğ Harfi 2
+İşaret Dili Eğitimi -- Z Harfi
+İşaret Dili Eğitimi -- M Harfi
+İşaret Dili Eğitimi -- E Harfi
+İşaret Dili Eğitimi -- O Harfi
+İşaret Dili Eğitimi -- Ö Harfi
+İşaret Dili Eğitimi -- K Harfi
+İşaret Dili Eğitimi -- Ş Harfi
+İşaret Dili Eğitimi -- G Harfi
+İşaret Dili Eğitimi -- Ü Harfi
+İşaret Dili Eğitimi -- A Harfi
+İşaret Dili Eğitimi -- N Harfi
+İşaret Dili Eğitimi -- İ Harfi
+İşaret Dili Eğitimi -- C Harfi
+İşaret Dili Eğitimi -- D Harfi
+İşaret Dili Eğitimi -- S Harfi
+İşaret Dili Eğitimi -- Ç Harfi
+İşaret Dili Eğitimi -- B Harfi
+İşaret Dili Eğitimi -- L Harfi
+İşaret Dili Eğitimi -- F Harfi
+İşaret Dili Eğitimi -- Y Harfi
+İşaret Dili Eğitimi -- H Harfi
+İşaret Dili Eğitimi -- U Harfi
+İşaret Dili Eğitimi -- I Harfi
+İşaret Dili Eğitimi -- J Harfi
+İşaret Dili Eğitimi -- T Harfi
+İşaret Dili Eğitimi -- V Harfi
