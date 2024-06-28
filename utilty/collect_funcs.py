@@ -13,7 +13,7 @@ sequence_length = 30
 stop_processing = False
 
 
-def process_frame(frame, holds, sequence, frame_num, holistics, window_name):
+def process_frame(frame, holds, sequence, frame_num, holistics):
     global stop_processing
     if stop_processing:
         return None
@@ -45,7 +45,7 @@ def collect_data(holistics, cap, window_name, holders):
                     ret, frame = cap.read()
                     if not ret:
                         continue
-                    future = executor.submit(process_frame, frame, holds, sequence, frame_num, holistics, window_name)
+                    future = executor.submit(process_frame, frame, holds, sequence, frame_num, holistics)
                     futures.append(future)
 
                     # Display the frame

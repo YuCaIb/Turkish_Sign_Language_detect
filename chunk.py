@@ -1,5 +1,4 @@
 import os
-
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -52,7 +51,7 @@ if not cap.isOpened():
     print('cap is not avaliable')
     exit()
 
-with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
+with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.3, model_complexity=2) as holistic:
     while True:
         ret, frame = cap.read()
 

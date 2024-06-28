@@ -7,6 +7,8 @@ import mediapipe as mp
 mp_holistic = mp.solutions.holistic  # Holistic model
 mp_drawing = mp.solutions.drawing_utils  # Drawing utilities
 main_folder = 'collection'
+help(mp_holistic.Holistic())
+
 
 
 def landmark_detect(image, model):

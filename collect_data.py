@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 if __name__ == "__main__":
-    holders = np.array(['anne', 'bebek', 'misafir', 'sevgili', 'dikkat'])
+    holders = np.array(["Değiştirmek", "Dokunmak"])
 
     marking.create_folders(holders, videos)
 
@@ -17,7 +17,8 @@ if __name__ == "__main__":
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
-    with marking.mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistics:
+    with marking.mp_holistic.Holistic(min_detection_confidence=0.1,
+                                      min_tracking_confidence=0.5, model_complexity=2) as holistics:
         collect_funcs.collect_data(holistics, cap, window_name, holders)
 
     cap.release()
