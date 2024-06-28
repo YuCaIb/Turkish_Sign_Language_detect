@@ -161,3 +161,7 @@ Therefore, it is important to be cautious when using threads and to apply proper
 
 if __name__ == "__main__":
     print('12')
+
+import pandas
+
+df = pandas.read_csv('done.txt')

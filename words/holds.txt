@@ -34,9 +34,9 @@ Dar
 Çift
 Çiçek
 Çevirmek
-Çete
-Çarpışmak
 Çete 2
+Çarpışmak
+Boşanmak
 Bütün
 Ceza
 Beraber
@@ -255,7 +255,6 @@ Bekar
 Bebek 2
 Baba
 Bay
-Boşanmak
 Akraba
 Ahbap
 Anne

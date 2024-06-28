@@ -1,9 +1,11 @@
 1,2,3,4,5
-"Fenerbahçe", "yiyecekler", "Sıfır", "Değil", "Dökmek"
+"Fenerbahçe","Yiyecekler","Sıfır","Değil","Dökmek"
 "Demek","Çok","Çöp","Değiştirmek","Dokunmak"
 "Dolaşmak","Destek","Dönem","Delik","Deli"
-"Dolu", "Davranış", "Defa", "Dinlenmek", "Doğru"
-
-
-"Değerli","Diploma",
-"Dinlemek","Devam", "Denemek"
+"Dolu","Davranış","Defa","Dinlenmek","Doğru"
+"Değerli","Diploma","Dinlemek","Devam","Denemek"
+"Doğal","Dikkat","Dar","Çıkmak","Çile"
+"Çok Yaşa","Çirkin","Çiğnemek","Çift","Çiçek"
+"Çevirmek","Çete","Çarpışmak","Boşanmak","Bütün"
+"Ceza","Beraber","Çekmek","Çağırmak","Çalışmak"
+"Çalmak","Bencil","Bozmak","Cevap","Bırakmak"
