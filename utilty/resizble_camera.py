@@ -1,14 +1,10 @@
+# utilty/resizble_camera.py
 import cv2
-
-# Function to adjust the displayed image to the new window size
-
-width = 1280
-height = 720
 
 
 def resize_and_display(frame, window_name):
     """
-    provides resizing camera daynamicly.
+    provides resizing camera dynamically.
     :param frame: frame
     :param window_name: string
                         define window's name
@@ -33,32 +29,40 @@ def resize_and_display(frame, window_name):
     cv2.imshow(window_name, resized_frame)
 
 
-def main():
-    """
-    a test function.
-    :return:
-    """
-    cap = cv2.VideoCapture(0)
+class ResizableCamera:
+    def __init__(self, width=1280, height=720):
+        self.width = width
+        self.height = height
 
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
-    window_name = 'Resizable Camera Window'
-    cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
-    cv2.resizeWindow(window_name, 1280, 720)
+    def start_camera(self, window_name='Resizable Camera Window'):
+        """
+        Start the camera and display the resized frame.
+        :param window_name: string
+                            define window's name
+        :return:
+        """
+        cap = cv2.VideoCapture(0)
 
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
+        cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
+        cv2.resizeWindow(window_name, self.width, self.height)
 
-        resize_and_display(frame, window_name)
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+            resize_and_display(frame, window_name)
 
-    cap.release()
-    cv2.destroyAllWindows()
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+
+        cap.release()
+        cv2.destroyAllWindows()
 
 
+# Test the class
 if __name__ == "__main__":
-    main()
+    camera = ResizableCamera()
+    camera.start_camera()
