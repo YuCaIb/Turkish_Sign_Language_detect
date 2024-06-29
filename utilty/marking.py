@@ -45,16 +45,6 @@ def get_positions(results):
     return np.concatenate([pose, face, lh, rh])
 
 
-def save_as_nparray(array: np.array, path):
-    """
-    :param array: np.array, array to be saved as 'npy' file
-    :param path:
-    :return:
-    """
-    save = get_positions(results=array)
-    np.save(path, save)
-
-
 def landmark_detect(image, model):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # COLOR CONVERSION BGR 2 RGB
     image.flags.writeable = False  # Image is no longer writeable
@@ -92,3 +82,13 @@ class Marking:
                                        self.mp_drawing.DrawingSpec(color=(245, 117, 66), thickness=2, circle_radius=4),
                                        self.mp_drawing.DrawingSpec(color=(245, 66, 230), thickness=2, circle_radius=2)
                                        )
+
+
+def save_as_nparray(array: np.array, path):
+    """
+    :param array: np.array, array to be saved as 'npy' file
+    :param path:
+    :return:
+    """
+    save = get_positions(results=array)
+    np.save(path, save)

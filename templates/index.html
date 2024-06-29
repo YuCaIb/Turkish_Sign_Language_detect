@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming</title>
+    <style>
+        body {
+            background-color: #40E0D0; /* Turquoise background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif; /* Use a common font family */
+        }
+        #content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 80%; /* Adjust overall width */
+            padding: 20px;
+            background-color: #FFF; /* White background color */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+        }
+        #video_container {
+            flex: 1;
+            margin-right: 20px; /* Add space between video and predictions */
+        }
+        #video_feed {
+            width: 100%; /* Ensure video feed occupies full width */
+            border-radius: 10px;
+        }
+        #predictions_container {
+            flex: 1;
+            background-color: #FFF; /* White box for predictions */
+            padding: 20px;
+            border-radius: 10px;
+            overflow-y: auto; /* Enable vertical scrolling */
+            max-height: 400px; /* Limit height and enable scrolling */
+        }
+        h1 {
+            margin: 0; /* Remove default margin */
+            color: #FFFFFF; /* White text color */
+            font-size: 24px; /* Adjust font size */
+            font-weight: bold; /* Make text bold */
+            text-align: left; /* Align to the left */
+            padding: 10px 0; /* Add padding top and bottom */
+        }
+        h2 {
+            margin-top: 0; /* Remove top margin for predictions heading */
+            color: #333; /* Dark text color */
+            font-size: 20px; /* Adjust font size */
+            font-weight: bold; /* Make text bold */
+        }
+        ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove default padding */
+        }
+        li {
+            margin-bottom: 8px; /* Add space between predicted words */
+            color: #666; /* Medium dark text color */
+            font-size: 16px; /* Adjust font size */
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="video_container">
+            <h1>Video Streaming with Flask</h1>
+            <img id="video_feed" src="{{ url_for('video_feed') }}">
+        </div>
+        <div id="predictions_container">
+            <h2>Predicted Words</h2>
+            <ul id="predicted_words">
+                <!-- Use JavaScript to dynamically update predicted words -->
+            </ul>
+        </div>
+    </div>
+    <script>
+        var maxPredictions = 50; // Maximum number of predictions to keep
+
+        setInterval(function() {
+            fetch('/get_predictions') // Fetch predictions from Flask endpoint
+                .then(response => response.json())
+                .then(data => {
+                    var predictedWords = data.predictions; // Replace with actual predicted words
+                    var listItems = "";
+                    var startIndex = Math.max(predictedWords.length - maxPredictions, 0);
+                    for (var i = startIndex; i < predictedWords.length; i++) {
+                        listItems += "<li>" + predictedWords[i] + "</li>";
+                    }
+                    document.getElementById("predicted_words").innerHTML = listItems;
+                })
+                .catch(error => console.error('Error fetching predictions:', error));
+        }, 3000); // Update every 3 seconds (adjust as needed)
+    </script>
+</body>
+</html>

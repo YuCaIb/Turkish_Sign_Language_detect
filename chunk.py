@@ -3,8 +3,8 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
-mp_holistic = mp.solutions.holistic
-mp_drawing = mp.solutions.drawing_utils
+# mp_holistic = mp.solutions.holistic
+# mp_drawing = mp.solutions.drawing_utils
 
 
 def landmark_detect(image, model):
@@ -22,7 +22,7 @@ def landmark_detect(image, model):
     return image, results
 
 
-def landmark_draw(image, results):
+def landmark_draw(image, results,mp_drawing,mp_holistic):
     # Draw face connections
     mp_drawing.draw_landmarks(image, results.face_landmarks, mp_holistic.FACEMESH_TESSELATION,
                               mp_drawing.DrawingSpec(color=(80, 110, 10), thickness=1, circle_radius=1),
@@ -45,72 +45,72 @@ def landmark_draw(image, results):
                               )
 
 
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
 
-if not cap.isOpened():
-    print('cap is not avaliable')
-    exit()
+# if not cap.isOpened():
+#     print('cap is not avaliable')
+#     exit()
 
-with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.3, model_complexity=2) as holistic:
-    while True:
-        ret, frame = cap.read()
+# with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.3, model_complexity=2) as holistic:
+#     while True:
+#         ret, frame = cap.read()
+#
+#         if not ret:
+#             print("can't recieve frame")
+#             break
+#         # operations on the frame need to filled there
+#         image, results = landmark_detect(frame, holistic)
+#         print(results)
+#         # Display
+#         landmark_draw(image, results)
+#         cv2.imshow('feed', image)
+#
+#         if cv2.waitKey(10) & 0xFF == ord('q'):
+#             break
+#
+#     cap.release()
+#     cv2.destroyAllWindows()
+#
+# len(results.left_hand_landmarks.landmark)  # 21 mark
+# len(results.right_hand_landmarks.landmark)  # 21 mark
+# len(results.face_landmarks.landmark)  # 468 mark
+# len(results.pose_landmarks.landmark)  # 33 mark
+#
+# print(results.pose_landmarks)
+# print(results.right_hand_landmarks)  # 468 mark
+# print(results.left_hand_landmarks)  # 468 mark
+#
+# pose = []
+# for res in results.pose_landmarks.landmark:
+#     test = np.array([res.x, res.y, res.z, res.visibility])
+#     pose.append(test)
+#
+# len(pose)
+#
+#
+# def extract_keypoint(results):
+#     pose = np.array([[res.x, res.y, res.z, res.visibility] for res in
+#                      results.pose_landmarks.landmark]).flatten() if results.pose_landmarks else np.zeros(33 * 4)
+#     face = np.array([[res.x, res.y, res.z] for res in
+#                      results.face_landmarks.landmark]).flatten() if results.face_landmarks else np.zeros(468 * 3)
+#     rh = np.array([[res.x, res.y, res.z] for res in
+#                    results.right_hand_landmarks.landmark]).flatten() if results.right_hand_landmarks else np.zeros(
+#         21 * 3)
+#     lh = np.array([[res.x, res.y, res.z] for res in
+#                    results.left_hand_landmarks.landmark]).flatten() if results.left_hand_landmarks else np.zeros(21 * 3)
+#     return np.concatenate([pose, face, rh, lh])
 
-        if not ret:
-            print("can't recieve frame")
-            break
-        # operations on the frame need to filled there
-        image, results = landmark_detect(frame, holistic)
-        print(results)
-        # Display
-        landmark_draw(image, results)
-        cv2.imshow('feed', image)
+#
+# dir_export_arrays = os.path.join('extracted_data')
+# actions_list = np.array(['günaydın', 'merhaba', 'kardeş', 'abi', 'abla'])
 
-        if cv2.waitKey(10) & 0xFF == ord('q'):
-            break
-
-    cap.release()
-    cv2.destroyAllWindows()
-
-len(results.left_hand_landmarks.landmark)  # 21 mark
-len(results.right_hand_landmarks.landmark)  # 21 mark
-len(results.face_landmarks.landmark)  # 468 mark
-len(results.pose_landmarks.landmark)  # 33 mark
-
-print(results.pose_landmarks)
-print(results.right_hand_landmarks)  # 468 mark
-print(results.left_hand_landmarks)  # 468 mark
-
-pose = []
-for res in results.pose_landmarks.landmark:
-    test = np.array([res.x, res.y, res.z, res.visibility])
-    pose.append(test)
-
-len(pose)
-
-
-def extract_keypoint(results):
-    pose = np.array([[res.x, res.y, res.z, res.visibility] for res in
-                     results.pose_landmarks.landmark]).flatten() if results.pose_landmarks else np.zeros(33 * 4)
-    face = np.array([[res.x, res.y, res.z] for res in
-                     results.face_landmarks.landmark]).flatten() if results.face_landmarks else np.zeros(468 * 3)
-    rh = np.array([[res.x, res.y, res.z] for res in
-                   results.right_hand_landmarks.landmark]).flatten() if results.right_hand_landmarks else np.zeros(
-        21 * 3)
-    lh = np.array([[res.x, res.y, res.z] for res in
-                   results.left_hand_landmarks.landmark]).flatten() if results.left_hand_landmarks else np.zeros(21 * 3)
-    return np.concatenate([pose, face, rh, lh])
-
-
-dir_export_arrays = os.path.join('extracted_data')
-actions_list = np.array(['günaydın', 'merhaba', 'kardeş', 'abi', 'abla'])
-
-no_sequences = 30
-
-sequence_length = 30
-
-for action in actions_list:
-    for sequence in range(no_sequences):
-        os.makedirs(os.path.join(dir_export_arrays, action, str(sequence)), exist_ok=True)
+# no_sequences = 30
+#
+# sequence_length = 30
+#
+# for action in actions_list:
+#     for sequence in range(no_sequences):
+#         os.makedirs(os.path.join(dir_export_arrays, action, str(sequence)), exist_ok=True)
 
 """Thread : 
 Thread Usage, example, differnces.
