@@ -9,3 +9,4 @@
 "Çevirmek","Çete","Çarpışmak","Boşanmak","Bütün"
 "Ceza","Beraber","Çekmek","Çağırmak","Çalışmak"
 "Çalmak","Bencil","Bozmak","Cevap","Bırakmak"
+"Cimri","Birçok","Biraz","Çare","Boş"

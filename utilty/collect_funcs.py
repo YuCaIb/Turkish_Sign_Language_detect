@@ -3,10 +3,12 @@ import cv2
 import numpy as np
 from concurrent.futures import ThreadPoolExecutor
 from utilty import Marking, ResizableCamera
-from utilty import marking , resizble_camera
+from utilty import marking, resizble_camera
+
 
 video = 30
 seq_len = 30
+
 
 class DataCollector:
     def __init__(self, videos=video, sequence_length=seq_len):

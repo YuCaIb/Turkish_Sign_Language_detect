@@ -1,1 +1,13 @@
 /collection/
+/model/folder_names.npy
+/model/TSL_model.keras
+/model/X.npy
+/model/X_1.npy
+/model/X_2.npy
+/model/y.npy
+/model/y_1.npy
+/model/y_2.npy
+/final_model.pth
+/latest_model.pth
+/logs/
+/logs_torch/

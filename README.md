@@ -29,7 +29,8 @@ Basically you can open translate and use these languages, What I aim for the fut
 * Also, I'm collecting data according to those two sources. To be clear, I'm imitating the signs myself as described, shown and collecting data via mediapipe's holistics.
 ---
 # Libraries:
-python- 3.12 (as far I'm stick with it, maybe it can be lowered to 3.10)
+~~python- 3.12 (as far I'm stick with it, maybe it can be lowered to 3.10)~~
+* I downgraded to  Python version 3.11 to compilable with torch and keras.
 * numpy 
 * keras
 * open-cv
@@ -37,4 +38,8 @@ python- 3.12 (as far I'm stick with it, maybe it can be lowered to 3.10)
 * yt-dlp (https://github.com/yt-dlp/yt-dlp)
 * mediapipe (https://github.com/google-ai-edge/mediapipe/blob/master/docs/solutions/holistic.md)
 ---
-
+# Data
+* you can download 55 words, that collected by me from [here](https://drive.google.com/drive/folders/1OlvLZqXLRrz1OcG1FgIaLKxNSDGFRCaB?usp=sharing)
+---
+# Model
+* best model that is %91 categorical_accuracy while training but with my evaluations it scored as %54 accuracy score you can download from [here](https://drive.google.com/file/d/1vZubaYU6Hsywn7a7QG4az84W1qMfPjPU/view?usp=sharing)

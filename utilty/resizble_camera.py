@@ -1,4 +1,3 @@
-# utilty/resizble_camera.py
 import cv2
 
 

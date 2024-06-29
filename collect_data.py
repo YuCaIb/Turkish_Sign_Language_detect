@@ -8,7 +8,7 @@ marker = marking
 collector = collect_funcs.DataCollector()
 
 if __name__ == "__main__":
-    holders = np.array(["Çalmak","Bencil","Bozmak","Cevap","Bırakmak"])
+    holders = np.array(["Cimri","Birçok","Biraz","Çare","Boş"])
 
     marker.create_folders(holders, video)
     window_name = 'Data Collector'

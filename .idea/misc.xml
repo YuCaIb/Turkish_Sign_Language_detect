@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="signlang" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="signlang" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="signlang2" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>
