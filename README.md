@@ -52,7 +52,7 @@ Basically you can open translate and use these languages, What I aim for the fut
 * handle paths of; X , y ,folder_names, in the needed place  
 * ` conda create -n signlang python = 3.11`
 * `conda activate signlang`
-* `pip install mediapipe keras tensorflow yt-dlp scikit-learn open-cv flask numpy`
+* `pip install mediapipe keras tensorflow yt-dlp scikit-learn opencv-python flask numpy`
 * for torch https://pytorch.org/get-started/locally/
 * cd path content
 * python web_UI.py
