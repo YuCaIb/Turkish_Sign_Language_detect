@@ -1,10 +1,12 @@
+## we don't use it I just left it there so people may like to see way I trying things.
+
+
+# mp_holistic = mp.solutions.holistic
+# mp_drawing = mp.solutions.drawing_utils
 import os
 import cv2
 import mediapipe as mp
 import numpy as np
-
-# mp_holistic = mp.solutions.holistic
-# mp_drawing = mp.solutions.drawing_utils
 
 
 def landmark_detect(image, model):
@@ -22,7 +24,7 @@ def landmark_detect(image, model):
     return image, results
 
 
-def landmark_draw(image, results,mp_drawing,mp_holistic):
+def landmark_draw(image, results, mp_drawing, mp_holistic):
     # Draw face connections
     mp_drawing.draw_landmarks(image, results.face_landmarks, mp_holistic.FACEMESH_TESSELATION,
                               mp_drawing.DrawingSpec(color=(80, 110, 10), thickness=1, circle_radius=1),
@@ -48,7 +50,7 @@ def landmark_draw(image, results,mp_drawing,mp_holistic):
 # cap = cv2.VideoCapture(0)
 
 # if not cap.isOpened():
-#     print('cap is not avaliable')
+#     print('cap is not available')
 #     exit()
 
 # with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.3, model_complexity=2) as holistic:
@@ -56,7 +58,7 @@ def landmark_draw(image, results,mp_drawing,mp_holistic):
 #         ret, frame = cap.read()
 #
 #         if not ret:
-#             print("can't recieve frame")
+#             print("can't receive frame")
 #             break
 #         # operations on the frame need to filled there
 #         image, results = landmark_detect(frame, holistic)
@@ -159,9 +161,12 @@ but this benefit comes with a more complex code structure and requires careful m
 Therefore, it is important to be cautious when using threads and to apply proper synchronization techniques.
 """
 
+"""
 if __name__ == "__main__":
     print('12')
 
 import pandas
 
 df = pandas.read_csv('done.txt')
+
+"""
